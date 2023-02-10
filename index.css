@@ -96,3 +96,14 @@ body {
 #main-img-container {
     position: relative;
 }
+
+@media (min-width: 700px){
+    .main-img {
+        max-width: 700px;
+    }
+    
+    body {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
