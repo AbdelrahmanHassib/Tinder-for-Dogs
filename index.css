@@ -14,7 +14,7 @@ header {
 }
 
 body {
-    background-color: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    background-color: red;
     font-family: "Poppins", sans-serif;
 }
 
