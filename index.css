@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 1.25em 1.1875em 1.1875em 1.125em;
+}
+
+body {
+    background-color: linear-gradient(180deg, #FFFFFF 0%, #F6F7FB 100%);
+    font-family: "Poppins", sans-serif;
+}
+
+.main-img {
+    width: 98%;
+    margin: 0 1%;
+    border-radius: 0.9375em;
+}
+
+.accept-reject {
+    box-shadow: 0px 0.625em 1.25em #E9E9EA;
+    background: #FFFFFF;
+    border-radius: 50%;
+    width: 5.75em;
+    height: 5.75em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2.5% 4.4%;
+}
+
+.heart-icon-div:hover {
+    background-color: #DBFFF4;
+    box-shadow: 0px 0.625em 1.25em #CCF1E6;
+}
+
+.cross-icon-div:hover {
+    background-color: #FFE7EF;
+    box-shadow: 0px 0.625em 1.25em #EDD9DF;
+}
+
+.buttons-div {
+    display: flex;
+    justify-content: center;
+}
+
+.first-floating-para {
+    position: absolute;
+    top: 90%;
+    left: 2.6%;
+    color: #F8F8F8;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.125em;
+}
+
+.second-floating-para {
+    position: absolute;
+    top: 94%;
+    left: 2.6%;
+    color: #B7B7B7;
+    font-size: 1.5rem;
+    line-height: 1.33em;
+}
+
+.profile-icon {
+    height: 42%;
+    width: 6%;
+}
+
+.logo {
+    width: 15.3%;
+}
+
+.chat-icon {
+    height: 42%;
+    width: 6%;
+}
+
+.badge-img {
+    position: absolute;
+    top: 8rem;
+    left: 1.5rem;
+    width: 40%;
+    transform: rotate(-30deg);
+}
+
+#main-img-container {
+    position: relative;
+}
